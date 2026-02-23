@@ -25,6 +25,7 @@ body{
     text-align: center;
     justify-content: space-around;
     padding: 6px;
+    flex-wrap: wrap;
 }
 .noticia{
     background-color: rgb(189, 97, 97);
@@ -35,4 +36,10 @@ body{
     width: 600px;
     height: 350px;
     background-color: grey;
+}
+#final-do-site{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
