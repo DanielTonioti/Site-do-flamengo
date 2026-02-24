@@ -26,20 +26,49 @@ body{
     justify-content: space-around;
     padding: 6px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .noticia{
     background-color: rgb(189, 97, 97);
     color: white;
     border:6px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .imagem-noticia{
     width: 600px;
     height: 350px;
     background-color: grey;
+    justify-content: space-around;
+    margin: 10px;
 }
 #final-do-site{
     background-color: red;
     color: white;
     text-align: center;
     padding: 10px;
+}
+.Escalacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 52px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#escalacao-flamengo{
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+#CantoTela{
+    position: fixed;
+    bottom: 100px;
+    right: 250px;
+    width: 100px;
+    height: 50px;
+    z-index: 999999;
 }
